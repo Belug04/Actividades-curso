@@ -1,4 +1,17 @@
+/* Paleta de colores:
+ Color Primario: #6CDDE0
+ Color Secundario: #6C93E0
+ Color Terceario: #6CB8E0
+ Color Cuarto: #6CE0BD
+ Color Quinto: #6C6EE0
+ Color Sexto: #B6D1E0
+*/
+
+
+
+
 /*Index*/
+
 .milanesa{
     background-color: #99ff00;
     font-size: 30px;
@@ -9,10 +22,17 @@
     color: blue;
     background-color: aqua;
 }
-
+form{
+    background-color: #6CE0BD;
+}
+nav{
+    background-color: #6C6EE0;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ul{
+    color: #6CDDE0;
+}
 
 /*Pagina Contacto*/
 
-/* Colores de la pagina:
-    1. rojo
-    2.#99ff00*/
