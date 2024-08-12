@@ -34,5 +34,33 @@ nav{
     color: #6CDDE0;
 }
 
+.contenedor1{
+    width: 50%;
+    height: 90vh;
+    margin: auto;
+    background-color: #99ff00;
+}
+
+.contenedor2{
+    width: 90%;
+    height: 85vh;
+    background-color:#6C6EE0;
+    margin-top: 10px;
+}
+
+.contenedor3{
+    width: 85%;
+    height: 80vh;
+    background-color:#6CDDE0;
+    
+}
+
+.contenedor4{
+    width: 80%;
+    height: 75vh;
+    background-color:cadetblue;
+   
+}
+
 /*Pagina Contacto*/
 
