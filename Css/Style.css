@@ -59,8 +59,19 @@ nav{
     width: 80%;
     height: 75vh;
     background-color:cadetblue;
-   
+
 }
 
+.ul{
+    padding: auto;
+}
+
+input, select,button,textarea{
+    width: 50%;
+}
+body{
+    background-image: url(../Imagenes/descubren-que-los-humanos-influimos-en-el-color-de-ojos-de-los-perros-1280x720.jpg);
+    background-size: 560px;
+}
 /*Pagina Contacto*/
 
