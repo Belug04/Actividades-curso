@@ -6,13 +6,16 @@
  Color Quinto: #6C6EE0
  Color Sexto: #B6D1E0
 */
-
+*{
+    padding: 0;
+    margin: 0;
+}
 
 
 
 /*Index*/
 
-.milanesa{
+/*.milanesa{
     background-color: #99ff00;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -68,10 +71,186 @@ nav{
 
 input, select,button,textarea{
     width: 50%;
-}
+}*/
 body{
     background-image: url(../Imagenes/descubren-que-los-humanos-influimos-en-el-color-de-ojos-de-los-perros-1280x720.jpg);
     background-size: 560px;
 }
-/*Pagina Contacto*/
 
+.elementopadre{
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elementopadre, li{
+    padding: 5px;
+    color:rgb(41, 41, 40);
+    background-color: aqua;
+}
+
+.li1{
+background-color: aqua;
+color: black;
+flex-grow: 2;
+}
+
+.li2{
+    background-color: blueviolet;
+    color: beige;
+    flex-shrink: initial;
+}
+
+li{
+    color: rgb(20, 230, 230);
+    transition: 2000ms;
+    transition-property: background-color;
+ }
+ li:hover{
+    box-shadow: 0px 0px 0px 10px  #6CB8E0;
+    color: #6C6EE0;
+   
+ 
+ }
+ 
+ .article{
+    background-color: #B6D1E0;
+    color: rgb(3, 3, 3);
+    border: 5px solid rgb(48, 46, 46);
+    border-radius: 5px;
+    transition: 400ms;
+    opacity: 0.7;
+    
+ 
+ }
+ .article2{
+    background-color: #B6D1E0;
+    color: black;
+    border: 1px solid rgb(116, 111, 111);
+    border-radius: 5px;
+ 
+ }
+ .article:hover, .article2:hover{
+    background-color: #6C6EE0;
+    cursor: pointer;
+    color: antiquewhite;
+    border: 5px dashed #6CB8E0;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.308);
+    scale: 1.05;
+ }
+ 
+ .title-inicio, .subtitle, .parrafo{
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    
+ }
+ 
+ .div{
+    background-color: #6C6EE0;
+    border:  1px solid grey;
+    width: 200px;
+    margin: 20px;
+ }
+ 
+ .div{
+    animation:  div 5s infinite;
+ 
+ }
+ @keyframes div{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+ }
+@media (min-width:767px){
+.elementopadre{
+    display: flex;
+    flex-direction: row;
+    background-color: chartreuse;
+
+}
+
+}
+/*Pagina Productos*/
+
+.card-conteiner{
+    display: grid;
+    gap: 10px;
+}
+
+.card{
+    background-color: burlywood;
+    padding: 2px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.card-title, .card-p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-items: center;
+
+}
+.title-ge{
+    background-color: burlywood;
+    padding: 2px;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+@media (min-width: 989px){
+    .card-conteiner{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        display: grid;
+    }
+    .title-ge{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .footer{
+        height: auto;
+        width: 100%;
+    }
+    .parrafo{
+        text-align: center;
+    }
+    
+    }
+
+footer{
+    background-color: aqua;
+    font-family:'Times New Roman', Times, serif;
+    font-style: inherit;
+    font-size: x-small;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 14px;
+    max-height: max-content;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
