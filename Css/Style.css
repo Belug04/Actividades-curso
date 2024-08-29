@@ -110,7 +110,7 @@ li{
  }
  li:hover{
     box-shadow: 0px 0px 0px 10px  #6CB8E0;
-    color: #6C6EE0;
+    color: rgb(48, 46, 46);
    
  
  }
@@ -176,7 +176,7 @@ li{
 .elementopadre{
     display: flex;
     flex-direction: row;
-    background-color: chartreuse;
+    background-color: #6CB8E0;
 
 }
 
